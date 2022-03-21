@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --principal: rgb(255, 224, 112);
+    --secondary:  #2e2c2cfa;
+    --font-primary: "Inter" , sans-serif;
+    --font-secondary: "Browly One SC" , cursive;
+    --text-lg: 2em;
+    --text-md: 1.6em;
+
+}
+
+ul a{
+    
+    text-decoration: none;
+    color: var(--secondary) 
+}
+
+    
+body{
+    background-image: url(../images/f2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+a {
+    font-size: 20px;
+    }
+form {
+    border-style: dashed;
+    display: inline-block;
+    text-align: justify ;
+    font-style: normal;
+    padding: 10px;
+    margin: 10px;
+    list-style: circle;
+    
+}
+header menu{
+    float: right;
+}
