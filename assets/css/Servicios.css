@@ -30,12 +30,11 @@ body{
     grid-template-areas: 
     "header header header header"
     "section section section section";
+    background: var(--grad-bg);
     
 }
 
-html{
-    background: var(--grad-bg);
-}
+
 
 
 

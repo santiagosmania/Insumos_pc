@@ -15,14 +15,18 @@
 
 }
 
-html{
+body{
     background: var(--grad-bg);
+    
 }
 
 
-a {
+
+
+a{
     font-size: 20px;
-    }
+}
+
 section{
     display: grid;
     min-height: 50vh;
@@ -48,13 +52,17 @@ header {
     grid-column: 1 / 5;
     grid-row:  2;
     gap: 2rem;
+    background-color: var(--principal);
 
 }
 
 ul a{
     
     text-decoration: none;
+   
     color: var(--secondary) 
+    
+    
 }
 .ul{
     font-size: var(--text-md);

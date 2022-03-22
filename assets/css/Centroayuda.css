@@ -20,11 +20,14 @@ header nav{
     
 }
 
-html{
-    background: var(--grad-bg);
+a{
+    font-size: 20px;
 }
 
 
+body{
+    background: var(--grad-bg);
+}
 
 
 section{
