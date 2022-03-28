@@ -1,0 +1,25 @@
+{
+  "name": "smania_santiago",
+  "version": "1.0.0",
+  "description": "Insumos PC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagosmania/Insumos_pc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagosmania/Insumos_pc/issues"
+  },
+  "homepage": "https://github.com/santiagosmania/Insumos_pc#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
