@@ -1,0 +1,35 @@
+section{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1);
+    grid-template-rows: 30vh 1fr 15vh; 
+    
+    grid-template-areas: 
+    "video video video video";
+       
+    
+    
+    div{
+        .video{
+            grid-column: 2;
+            grid-row: 1;
+            align-self: center;
+        }
+        
+        .images{
+            grid-column: 1;
+            grid-row: 2;
+        }
+    }
+    form {
+        border-style: dashed;
+        display: inline-block;
+        text-align: justify ;
+        font-style: normal;
+        padding: 10px;
+        margin: 10px;
+        list-style: circle;
+        
+    }
+}
+

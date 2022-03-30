@@ -1,0 +1,10 @@
+.form_imput-text{
+    border-radius: 5px;
+    width: 30px;
+    transition: width .6s linear;
+    
+}
+
+.form_imput-text:focus{
+    width: 100px;
+}
