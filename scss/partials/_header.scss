@@ -1,6 +1,5 @@
 header {
-    align-items: center;
-    justify-content: space-between;
+    @include flex(row, space-between, center, 2rem);
     display: grid;
     background-color: $principal;
     
@@ -15,7 +14,7 @@ header {
         color: $secondary;   
     }
     .nav{
-        display: flex;
+        @include flex(row, space-between, center, 2rem);
         background-color: $principal; 
     }
     a {

@@ -16,10 +16,7 @@ section{
             align-self: center;
         }
         
-        .images{
-            grid-column: 1;
-            grid-row: 2;
-        }
+      
     }
     form {
         border-style: dashed;
@@ -33,3 +30,15 @@ section{
     }
 }
 
+@each $image, $value in $images {
+    .imges-#{$image} {
+        width: 100%;
+        height: 200px;
+
+
+    }
+
+
+
+
+}
